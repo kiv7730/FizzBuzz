@@ -24,5 +24,14 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("fizz", result);
         }
+
+        public void should_return_buzz_when_countoff_given_multiple_of_five()
+        {
+            int normalNumber = 5;
+            FizzBuzzGame game = new FizzBuzzGame();
+            string result = game.DoGame(5);
+            //then
+            Assert.Equal("buzz", result);
+        }
     }
 }
