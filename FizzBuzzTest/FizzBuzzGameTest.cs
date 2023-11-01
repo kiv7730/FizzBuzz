@@ -10,9 +10,9 @@ namespace FizzBuzzTest
         {
             int normalNumber = 1;
             FizzBuzzGame game = new FizzBuzzGame();
-            string result = game.do(1);
+            string result = game.DoGame(1);
             //then
-            Assert.Equal("1",result);
+            Assert.Equal("1", result);
         }
     }
 }

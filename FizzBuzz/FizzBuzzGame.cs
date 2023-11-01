@@ -2,11 +2,9 @@
 {
     public class FizzBuzzGame
     {
-        public string do(int number)
-            {
-            }
-
-
-
+        public string DoGame(int number)
+        {
+            return number.ToString();
+        }
 }
 }
