@@ -24,7 +24,7 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("fizz", result);
         }
-
+        [Fact]
         public void should_return_buzz_when_countoff_given_multiple_of_five()
         {
             int normalNumber = 5;
@@ -33,7 +33,7 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("buzz", result);
         }
-
+        [Fact]
         public void should_return_buzz_when_countoff_given_multiple_of_five_and_three()
         {
             int normalNumber = 15;
