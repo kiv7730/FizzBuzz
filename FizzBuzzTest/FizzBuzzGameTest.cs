@@ -33,5 +33,14 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("buzz", result);
         }
+
+        public void should_return_buzz_when_countoff_given_multiple_of_five_and_three()
+        {
+            int normalNumber = 15;
+            FizzBuzzGame game = new FizzBuzzGame();
+            string result = game.DoGame(15);
+            //then
+            Assert.Equal("fizzbuzz", result);
+        }
     }
 }
